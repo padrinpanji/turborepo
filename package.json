@@ -1,0 +1,16 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:padrinpanji/turborepo.git",
+  "author": "<padrinpanji@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@1.22.19",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  }
+}

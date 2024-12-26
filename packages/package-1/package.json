@@ -1,0 +1,9 @@
+{
+  "name": "package-1",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
